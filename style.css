@@ -1,5 +1,5 @@
 /*Import the fonts used*/
-@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
 /*Basic reset*/
 *,
 *::before,
@@ -26,7 +26,7 @@ html{
 }
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.6rem;
   color: var(--dark-color);
 }
@@ -117,7 +117,7 @@ section{
 }
 
 .logo img {
-  max-width: 15%;
+  max-width: 50%;
 }
 
 .hamburger-menu{
@@ -216,7 +216,7 @@ section{
 .subtitle{
   font-size: 3.6rem;
   font-weight: 300;
-  font-family: 'Courgette', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /*Booking Section style */
@@ -247,7 +247,7 @@ section{
   font-weight: bold;
   color: a5a5a5;
   letter-spacing: 2px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   resize: none;
 }
 
@@ -269,7 +269,7 @@ section{
 
 .sub-heading{
   font-size: 1.7rem;
-  font-family: 'Courgette', cursive;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   color: a5a5a5;
 }
