@@ -28,19 +28,19 @@
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
+            <a href="#package" class="nav-link">Packages</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Rooms</a>
+            <a href="#offers" class="nav-link">Offers</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Offers</a>
+            <a href="#rooms" class="nav-link">Rooms</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">City</a>
+            <a href="#city" class="nav-link">City</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
       </nav>
@@ -54,6 +54,13 @@
                 <h1 class="title">San Marcos</h1>
                 <h2 class="subtitle">Unwind, Indulge, Enjoy</h2>
             </div>
+            <div class="hotel-stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>            
             <a href="#" class="btn btn-gradient">Explore Now
                 <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
             </a>
@@ -62,11 +69,7 @@
 
     <section class="booking">
       <div class="container">
-        <form action="" class="form">
-          <div class="input-group">
-            <label for="destination" class="input-label">Destination</label>
-            <input type="text" class="input" id="destination">
-          </div>
+        <form action="form" class="reservation-form">
           <div class="input-group">
             <label for="check-in" class="input-label">Check-In</label>
             <input type="date" class="input" id="check-in">
@@ -102,11 +105,11 @@
       </div>
     </section>
 
-    <section class="hotels">
+    <section id="package" class="hotels">
       <div class="container">
         <h5 class="section-head">
-          <span class="heading">About</span>
-          <span class="sub-heading">Our Beautiful Hotel</span>
+          <span class="heading">Packages</span>
+          <span class="sub-heading">Our Beautiful Hotel Offers:</span>
         </h5>
         <div class="grid">
           <div class="grid-item featured-hotels">
@@ -126,8 +129,8 @@
             </div>
           <div class="grid-item featured-hotels">
             <img src="img/planta.jpg" alt="" class="hotel-image">
-            <h5 class="hotel-name">Planta</h5>
-            <span class="hotel-price">From $159/Night</span>
+            <h5 class="hotel-name">Breakfast Included</h5>
+            <span class="hotel-price">Every morning, a delicious buffet breakfast to start your day.</span>
             <div class="hotel-rating">
               <i class="fas fa-star rating"></i>
               <i class="fas fa-star rating"></i>
@@ -141,8 +144,8 @@
           </div>
           <div class="grid-item featured-hotels">
             <img src="img/tuxtla.jpg" alt="" class="hotel-image">
-            <h5 class="hotel-name">Tuxtla</h5>
-            <span class="hotel-price">From $199/Night</span>
+            <h5 class="hotel-name">Retreat Stay</h5>
+            <span class="hotel-price">A unique stay where yoga, relaxation and healthy food meet.</span>
             <div class="hotel-rating">
               <i class="fas fa-star rating"></i>
               <i class="fas fa-star rating"></i>
@@ -158,13 +161,13 @@
       </div>
     </section>
 
-    <section class="offer">
+    <section id="offers" class="offer">
       <div class="container">
         <div class="offer-content">
           <div class="discount">
-            40% Off
+            Last Minute Deals
           </div>
-          <h5 class="hotel-name">Tuxtla</h5>
+          <h5 class="last-minute-deal">Get inspired with our last minute deals and create the perfect vacation for you and your family.</h5>
             <div class="hotel-rating">
               <i class="fas fa-star rating"></i>
               <i class="fas fa-star rating"></i>
@@ -173,7 +176,7 @@
               <i class="fas fa-star-half rating"></i>
             </div>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eaque et quos vero id harum, accusamus fugiat praesentium eos incidunt adipisci eveniet?
+              All our packages are available for last minute deals; from All-Inclusive to a Retreat Stay, you choose!
             </p>
             <a href="#" class="btn btn-gradient">Redeem Offer
               <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
@@ -182,53 +185,54 @@
       </div>
     </section>
 
-    <section class="rooms">
+    <section id="rooms" class="rooms">
       <div class="container">
         <h5 class="section-head">
-          <span class="heading">Luxurious</span>
+          <span class="heading">Room Types</span>
+          <span class="sub-heading">We have everything you may need for your stay; select the option that suits your best vacation.</span>
         </h5>
         <div class="grid rooms-grid">
           <div class="grid-item featured-rooms">
             <div class="image-wrap">
               <img class="room-image" src="./img/room1.jpg" alt="">
-              <h5 class="room-name">Astro Hotel</h5>
+              <h5 class="room-name">Queen Standard Stay</h5>
             </div>
             <div class="room-info-wrap">
-              <span class="room-price">$200 <span class="per-night">Per Night</span></span>
-              <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At obcaecati reiciendis nihil beatae.</p>
+              <span class="room-price">$199 <span class="per-night">Per Night</span></span><br>
+              <p class="hotel-paragraph">2 Queen beds non smoking room. Guests will enjoy free WiFi, local calls, in-room safe & ergonomic work space.</p><br>
               <a href="#" class="btn rooms-btn">Book Now &rarr;</a>
             </div>
           </div>
           <div class="grid-item featured-rooms">
             <div class="image-wrap">
               <img class="room-image" src="./img/room2.jpg" alt="">
-              <h5 class="room-name">Astro Hotel</h5>
+              <h5 class="room-name">King Standard Stay</h5>
             </div>
             <div class="room-info-wrap">
-              <span class="room-price">$200 <span class="per-night">Per Night</span></span>
-              <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At obcaecati reiciendis nihil beatae.</p>
+              <span class="room-price">$199 <span class="per-night">Per Night</span></span><br>
+              <p class="hotel-paragraph">Non Smoking Room has 1 King bed. Guests will enjoy free WiFi, local calls, in-room safe & ergonomic work space.</p><br>
               <a href="#" class="btn rooms-btn">Book Now &rarr;</a>
             </div>
           </div>
           <div class="grid-item featured-rooms">
             <div class="image-wrap">
               <img class="room-image" src="./img/room3.jpg" alt="">
-              <h5 class="room-name">Astro Hotel</h5>
+              <h5 class="room-name">Deluxe King Room</h5>
             </div>
             <div class="room-info-wrap">
-              <span class="room-price">$200 <span class="per-night">Per Night</span></span>
-              <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At obcaecati reiciendis nihil beatae.</p>
+              <span class="room-price">$239 <span class="per-night">Per Night</span></span><br>
+              <p class="hotel-paragraph">1 King bed room with two walls of windows. Guests will enjoy free WiFi, local calls, in-room safe, ergonomic work space, steam shower & sitting area.</p><br>
               <a href="#" class="btn rooms-btn">Book Now &rarr;</a>
             </div>
           </div>
           <div class="grid-item featured-rooms">
             <div class="image-wrap">
               <img class="room-image" src="./img/room1.jpg" alt="">
-              <h5 class="room-name">Astro Hotel</h5>
+              <h5 class="room-name">Suite King Room</h5>
             </div>
             <div class="room-info-wrap">
-              <span class="room-price">$200 <span class="per-night">Per Night</span></span>
-              <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At obcaecati reiciendis nihil beatae.</p>
+              <span class="room-price">$289 <span class="per-night">Per Night</span></span><br>
+              <p class="hotel-paragraph">Junior Suite has 1 King bed. Guests will enjoy free WiFi, local calls, in-room safe, ergonomic work space, sleeper sofa & small meeting area.</p><br>
               <a href="#" class="btn rooms-btn">Book Now &rarr;</a>
             </div>
           </div>
@@ -236,7 +240,32 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section id="city" class="offer">
+      <div class="container">
+        <div class="offer-content">
+          <div class="discount">
+            EXPLORE the city!
+          </div>
+          <h5 class="last-minute-deal">Discover the magic of living Grand in Playa del Carmen and enjoy endless multicultural experiences, indoors or out, on our oceanfront resort. Take a stroll through the acclaimed Quinta Avenida, full of bars, restaurants, art galleries, and nightlife. Or take a swim in the traditional cenotes, natural sinkholes which Mayans acclaim as sacred. There is something to do for everyone..</h5>
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59734.176777632114!2d-87.11298215089366!3d20.653867357034276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5d4ff2efc017%3A0x197afdcf47800efa!2sMvngata%20Beach%20Hotel!5e0!3m2!1sen!2sca!4v1698270167462!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="hotel-rating">
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star rating"></i>
+              <i class="fas fa-star-half rating"></i>
+            </div>
+            <p class="paragraph">
+              All our packages are available for last minute deals; from All-Inclusive to a Retreat Stay, you choose!
+            </p>
+            <a href="#" class="btn btn-gradient">Redeem Offer
+              <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+            </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
      <div class="container">
       <h5 class="section-head">
         <span class="heading">Contact</span>
@@ -244,7 +273,7 @@
       </h5>
       <div class="contact-content">
         <div class="traveler-wrap">
-          <img src="./img/contact.jpg" alt="">
+          <img src="./img/contact-2.jpg" alt="">
         </div>
         <form action="" class="form contact-form">
           <div class="input-group-wrap">
@@ -281,8 +310,8 @@
         <a href="index.html" class="logo">
           <img class="logo-image" src="./img/logo.png" alt="">
         </a>
-        <div class="paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nam quam sequi nesciunt quasi consectetur reprehenderit libero magnam natus.
+        <div class="footer-paragraph">
+          A warm welcome—complete with a lobby fireplace—awaits you at San Marcos. Located in Mexico, our contemporary hotel is accessible to a host of outdoor recreation options, downtown cultural attractions, and global business headquarters. We are pleased to offer our guests large, well-designed rooms and a host of sought-after amenities. Enjoy free Wi-Fi, climate-controlled rooms with 50-inch flat-screen TVs, and seating areas and steam showers in select rooms and suites.<br><br>The property also features three generous meeting spaces totaling 3,700 sq. ft. (343.7 sq. m) for your next business or personal event. Enjoy our indoor heated pool and hot tub, or grab an energizing workout at our on-site fitness centre—all open 24 hours. Freeport Food & Drink restaurant and lounge is located on site for convenient, delicious breakfast and dinner daily.
         </div>
       </div>
       <div class="social-media-wrap">
