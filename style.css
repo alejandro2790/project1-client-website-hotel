@@ -15,7 +15,7 @@
   --blue-transparent: rgba(20, 49, 130, 0.7); /* Semi-transparent light blue */
   --blue-transparent-alt: rgba(12, 32, 86, 0.5); /* Semi-transparent light blue alt */
   --blue-light: #5089FB; /* A softer, sky blue for highlights */
-  --yellow-solid: #f6d206; /* A sunny yellow for solid elements */
+  --yellow-solid: #FFD700; /* A sunny yellow for solid elements */
   --gradient-color: linear-gradient(to right, var(--blue-light), var(--yellow-solid)); /* Gradient from yellow to sky blue */
   --gradient-color-alt: linear-gradient(to right, var(--yellow-solid), var(--blue-light)); /* Gradient from sky blue to yellow */
 }
@@ -417,7 +417,7 @@ section{
 .room-name{
   font-size: 1.8rem;
   background-color: var(--yellow-solid);
-  color: #fff;
+  color: #25334E;
   padding: .5rem 2rem;
   position: absolute;
   left: 0;
@@ -696,3 +696,4 @@ margin-right: 2rem;
   grid-gap: 10px;
   justify-items: start; 
 }
+
