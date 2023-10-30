@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Payment</title>
     <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
@@ -61,10 +62,11 @@
       <div class="container">
         <div class="offer-content">
           <div class="discount">
-            2 Nights Stay
+            Queen Standard Stay: 2 Nights
           </div><br>
-          <h5 class="heading">Total: $417.90 CAD</h5><br>
-          <h5 class="sub-heading">HST & Fees included.</h5><br>
+          <h5 class="sub-heading">$199.00 x 2 nights = $398.00</h5><br>
+          <h5 class="sub-heading">HST = $19.90</h5><br>
+          <h5 class="heading">Total $417.90 CAD</h5><br>
             <p class="paragraph">
               AMEX, VISA & MASTERCARD ACCEPTED.
             </p>
@@ -72,49 +74,120 @@
       </div>
     </section>
 
-    <section id="contact" class="contact">
-     <div class="container">
-      <h5 class="section-head">
-        <span class="heading">Please fill out credit card information!</span>
-        <span class="sub-heading">An email confirmation will be sent to you once the payment has been processed to the email address provided below.</span>
-      </h5>
-      <div class="contact-content">
-        <div class="traveler-wrap">
-          <img src="./img/payment-2.jpg" alt="">
+    <section id="rooms" class="rooms">
+      <div class="container">
+        <h5 class="section-head">
+          <span class="heading">Complete your booking</span>
+          <span class="sub-heading">Guest Information</span>
+        </h5>
+        <div class="description">
+          <div class="grid rooms-grid">
+            <div class="grid-item featured-rooms">
+
+              <form action="" class="form payment-form">
+                <div class="row">
+                  <div class="input-group">
+                    <input type="text" class="input" placeholder="First Name" required>
+                    <span class="bar"></span>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" class="input" placeholder="Last Name" required>
+                    <span class="bar"></span>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" class="input" placeholder="Email Address" required>
+                    <span class="bar"></span>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" class="input" placeholder="Country" required>
+                    <span class="bar"></span>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-group">
+                    <input type="text" class="input" placeholder="Address" required>
+                    <span class="bar"></span>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" class="input" placeholder="City" required>
+                    <span class="bar"></span>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" class="input" placeholder="State/Province" required>
+                    <span class="bar"></span>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" class="input" placeholder="Zip Code" required>
+                    <span class="bar"></span>
+                  </div>
+                </div>
+              </form>
+              <div class="image-wrap">
+                <img class="room-image" src="./img/room1.jpg" alt="">
+                <h5 class="room-name">Queen Standard Stay</h5>
+              </div>
+              <div class="room-info-wrap">
+                <span class="room-price">Summary:</span><br>
+                <p class="hotel-paragraph">2 Nights: $199.00/Per Night</p><br>
+                <p class="hotel-paragraph">2 Queen beds non-smoking room. Guests will enjoy free WiFi, local calls, in-room safe & ergonomic work space.</p><br>
+                  <p class="hotel-paragraph">Hotel Amenities:</p>
+                    <ul>
+                      <li>-Fitness center</li>
+                      <li>-Full business center</li>
+                      <li>-Full american breakfast</li>
+                    </ul><br>
+                <a href="#" class="btn rooms-btn">Make Changes&rarr;</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <form action="" class="form contact-form">
-          <div class="input-group-wrap">
-            <div class="input-group">
-              <input type="text" class="input" placeholder="Full Name" required>
-              <span class="bar"></span>
-            </div>
-            <div class="input-group">
-              <input type="text" class="input" placeholder="Date of Birth" required>
-              <span class="bar"></span>
-            </div>
-            <div class="input-group">
-              <input type="text" class="input" placeholder="CVV" required>
-              <span class="bar"></span>
-            </div>
-            <div class="input-group">
-              <input type="email" class="input" placeholder="E-mail" required>
-              <span class="bar"></span>
-            </div>
-            </div>
-            <div class="input-group">
-              <input type="text" class="input" placeholder="Credit Card #" required>
-              <span class="bar"></span>
-            </div>
-            <div class="input-group">
-              <textarea class="input" cols="30" rows="8" placeholder="Additional Guests:" required></textarea>
-              <span class="bar"></span>
-            </div>
-            <a href="Submit-payment.html" class="btn form-btn btn-purple">Submit Payment
-              <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
-            </a>
-        </form>
       </div>
-     </div>
+    </section>
+
+    <section id="city" class="offer">
+      <div class="container">
+        <div class="offer-content">
+          <h5 class="section-head">
+            <span class="heading">Please fill out credit card information</span>
+            <span class="sub-heading">An email confirmation will be sent to you once the payment has been processed to the email address provided above.</span>
+          </h5>
+          <form action="" class="form payment-form">
+            <div class="row">
+              <div class="input-group">
+                <input type="text" class="input" placeholder="Full Name" required>
+                <span class="bar"></span>
+              </div>
+              <div class="input-group">
+                <input type="text" class="input" placeholder="Credit Card #" required>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-group">
+                <input type="text" class="input" placeholder="Expiration Month" required>
+                <span class="bar"></span>
+              </div>
+              <div class="input-group">
+                <input type="text" class="input" placeholder="Expiration Year" required>
+                <span class="bar"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-group">
+                <input type="text" class="input" placeholder="CVV #" required>
+                <span class="bar"></span>
+              </div>
+              <div class="input-group">
+                <input type="text" class="input" placeholder="Email Address" required>
+                <span class="bar"></span>
+              </div>
+            </div>
+          </form>
+          <a href="Submit-payment.html" class="btn form-btn btn-purple">Book Now
+            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+          </a>
+        </div>
+      </div>
     </section>
 </main>
 

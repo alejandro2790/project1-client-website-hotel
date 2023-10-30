@@ -83,7 +83,8 @@ section{
 }
 
 .btn-purple:hover{
-  background-color: #FFD700; 
+  background-color: #FFD700;
+  color: #0A3B57;
 }
 
 .dots{
@@ -232,7 +233,7 @@ section{
 
 /*Booking Section style */
 .booking{
-  background-image: var(--gradient-color);
+  background-image: var(--gradient-color-alt);
 }
 
 .input-group{
@@ -697,3 +698,45 @@ margin-right: 2rem;
   justify-items: start; 
 }
 
+/* Payment Section */
+.food, .beach, .drink {
+  font-size: 3.5rem;
+  color: #ffd900;
+}
+.payment-form{
+  width: 100%;
+  padding: 2.5rem;
+}
+
+/* Complete Booking Section */
+.info-description-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px; /* Adjust the gap as needed */
+  align-items: center;
+}
+
+.info {
+  flex: 1; /* Take up remaining space in the row */
+}
+
+.description {
+  flex: 1; /* Take up remaining space in the row */
+}
+
+/* CC Section */
+.payment-form{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input::placeholder {
+  font-size: 12px;
+}
+
+.creditcard-form{
+  background: linear-gradient(to right, rgba(255, 229, 141, 0.7), rgba(93, 117, 182, 0.7)),
+  url("./img/last.jpg") bottom center no-repeat;
+  background-size: cover;
+}
